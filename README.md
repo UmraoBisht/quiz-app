@@ -27,7 +27,7 @@ A React-based quiz application featuring both multiple-choice and integer-type q
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/quiz-app.git
+    git clone https://github.com/UmraoBisht/quiz-app.git
     cd quiz-app
     ```
 
@@ -63,4 +63,4 @@ A React-based quiz application featuring both multiple-choice and integer-type q
     yarn start
     ```
 
-    This will launch the app in development mode. Open http://localhost:3000 in your browser to view it.
+    This will launch the app in development mode. Open http://localhost:5173 in your browser to view it.
