@@ -27,7 +27,7 @@ A React-based quiz application featuring both multiple-choice and integer-type q
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/UmraoBisht/quiz-app.git
+    git clone [https://github.com/UmraoBisht/quiz-app.git](https://github.com/UmraoBisht/quiz-app.git)
     cd quiz-app
     ```
 
