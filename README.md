@@ -1,8 +1,66 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based quiz application featuring both multiple-choice and integer-type questions. Each question has a 30-second timer, and when the timer expires, the question is automatically skipped without awarding any points. Quiz attempt history is stored using IndexedDB via the `idb` library.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multiple-Choice & Integer-Type Questions:**  
+  Supports questions with options (multiple-choice) and questions that require a numerical answer.
+- **Timed Quiz:**  
+  Each question is timed with a 30-second countdown. If time expires before an answer is given, the question is auto-skipped.
+- **Auto-Skip on Timeout:**  
+  When the timer runs out, the current question is skipped without awarding any points.
+- **Persistent History:**  
+  Quiz attempt history is saved to IndexedDB, allowing you to review your past attempts.
+- **Responsive UI:**  
+  Built with custom UI components for buttons, cards, and card content to ensure a clean and responsive design.
+
+## Prerequisites
+
+- **Node.js:** Version 12 or later  
+  [Download Node.js](https://nodejs.org/)
+
+- **npm or yarn:** A package manager for installing dependencies.
+
+## Installation
+
+1.  **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/quiz-app.git
+    cd quiz-app
+    ```
+
+2.  **Install Dependencies:**
+    Using npm:
+
+    ```bash
+    npm install
+    ```
+
+    Or using yarn:
+
+    ```bash
+    yarn install
+    ```
+
+3.  **Running the Project**
+    To start the development server, run:
+
+    Using npm:
+
+    ```bash
+    Copy
+    Edit
+    npm start
+    ```
+
+    Using yarn:
+
+    ```bash
+    Copy
+    Edit
+    yarn start
+    ```
+
+    This will launch the app in development mode. Open http://localhost:3000 in your browser to view it.
